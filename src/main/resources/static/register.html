@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker - Register</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="auth-container">
+    <div class="auth-card">
+        <h1>Expense Tracker</h1>
+        <h2>Register</h2>
+        <div class="form-group">
+            <input type="text" id="username" placeholder="Username" required>
+        </div>
+        <div class="form-group">
+            <input type="password" id="password" placeholder="Password (min 8 chars)" required>
+        </div>
+        <div class="form-group">
+            <input type="email" id="email" placeholder="Email" required>
+        </div>
+        <div class="form-group">
+            <input type="date" id="dob" placeholder="Date of Birth">
+        </div>
+        <div class="form-group">
+            <input type="text" id="job" placeholder="Job">
+        </div>
+        <button onclick="register()">Register</button>
+        <p id="auth-message"></p>
+        <p class="auth-link">Already have an account? <a href="index.html">Login here</a></p>
+    </div>
+</div>
+<script src="js/auth.js"></script>
+</body>
+</html>
